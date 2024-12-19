@@ -62,12 +62,24 @@
     filter: invert(1) grayscale(1) brightness(50);
 }
 .inimg2{
-    width: 150px;
-    padding-top: 20px;
+    width: 120px;
+    height: 80px;
+    padding-top: 10px;
     padding-left: 20px;
     font-size:15px;
     cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
    
+}
+
+.inimg2:hover{
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+  background-color: #e0dede;
 }
 
 .off60{
@@ -105,14 +117,17 @@
 .help{
     display: flex;
     gap: 10px;
-    width: 110px;
-    height: 100%;
+    width: 100px;
+    height: 30px;
     font-size: 16px;
-    padding-top: 30px;
+    margin-top: 30px;
+    padding-top: 0px;
     color: #1d1d1d;
     cursor: pointer;
+    transition: 0.5s;
     
 }
+
 
 
 
@@ -831,11 +846,14 @@ input{
 .countryname{
     padding-left: 20px;
     font-size: 20px;
+    transition: 0.5s;
+    padding-top: 3px;
+    margin-top: 10px;
 }
 
 
 .countryname:hover {
-    background-color: rgb(192, 190, 190);
+    background-color: rgb(221, 218, 218);
     border-radius: 30px;
     height: 30px;
 }
