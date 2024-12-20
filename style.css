@@ -7,7 +7,7 @@
 }
 
 .main{
-     width: 1350px;
+     width: 100%;
      
 }
     
@@ -156,7 +156,7 @@
 }
 
 .hero{
-    width: 1360px;
+    width: 100%;
     height: 520px;
     background: url(images/yatesh203\ \(1\).png) no-repeat;
     background-size: cover;
@@ -189,6 +189,10 @@
 
 .twosidearrow i{
     color: rgb(107, 107, 107);
+}
+
+.twosidearrow:hover{
+    box-shadow: 2px 2px 3px 1px rgb(107, 107, 107);
 }
 
 .tobus{
@@ -232,6 +236,7 @@
     color: white;
     padding-top: 30px;
     padding-left: 34px;
+    cursor: pointer;
     
 }
 
@@ -247,13 +252,14 @@ input{
     margin-top: 5px;
 }
 
-input:active{
+input:focus{
     outline: none;
+    border: none;
 }
 
 
 .body{
-    width: 1350px;
+    width: 100%;
     height: 6000px;
     background-color: #F4F4F4;
     position: relative;
